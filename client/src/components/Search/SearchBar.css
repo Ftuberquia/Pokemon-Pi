@@ -1,0 +1,36 @@
+.search-cont {
+    width: 300px;
+}
+
+.search-button{
+    background-color: rgb(0, 162, 255);
+    color: yellow;
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: 800;
+}
+
+body.darker .search-button {
+    background-color: #0c184e;
+    color: yellow;
+}
+
+.search-button:hover{
+    background-color: yellow;
+    color: rgb(0, 162, 255);
+    filter:saturate(200%);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.search-input{
+    width: 200px;
+    border: none;
+}
+.search-button, .search-input {
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 3px;
+}

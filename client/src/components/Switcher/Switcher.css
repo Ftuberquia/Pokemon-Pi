@@ -1,0 +1,42 @@
+.switch {
+    background: #161e35;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch::after{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .4s ease all;
+}
+
+.switch.actived {
+    background: yellow;
+}
+
+.switch.actived::after{
+    background-color: #0c184e;
+    right: 0;
+    left: unset;
+}
+
+.switch .switch-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}

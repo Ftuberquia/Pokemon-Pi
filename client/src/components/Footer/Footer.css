@@ -1,0 +1,61 @@
+.footer-cont {
+    background-color: rgb(2, 0, 122, 0.8);
+    color: white;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    bottom: 0;
+}
+body.darker .footer-cont {
+    background-color: #000000;
+}
+
+.text-container {
+    padding-top: 1px;
+}
+.text-container p {
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.icon-linkedin{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 25px;
+    }
+    .logo-linkedin img {
+        width: 100%;
+        height: 100%;
+    }
+    .icon-linkedin:hover {
+        transform: scale(1.2);
+        filter: saturate(200%);
+        cursor: pointer;
+    }
+
+.icon-github{
+    display: flex;
+    width: 60px;
+    height: 60px;
+   cursor: pointer;
+    }
+    .logo-github img {
+        width: 100%;
+        height: 100%;
+    }
+    .icon-github:hover {
+        transform: scale(1.2);
+        filter: saturate(200%);
+        cursor: pointer;
+    }
+
+

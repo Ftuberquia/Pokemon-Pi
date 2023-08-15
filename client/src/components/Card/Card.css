@@ -1,0 +1,191 @@
+.card-cont {
+    background-image: url("../../img/pokebola3d.webp");
+    background-position: center;
+    background-size: 300%;
+    border-radius: 15px;
+    width: 300px;
+    height: 82%;
+    border: 3px solid white;
+}
+
+.card-cont:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 50px white);
+}
+
+.id-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.id-cont h3 {
+    color: rgb(255, 255, 255);
+}
+
+.id-cont img {
+    width: 7%;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+.name-cont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    max-height: 50px;
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+
+.card-name {
+    color: white;
+    width: 100%;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.card-cont .img-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-cont .types-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.types-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+
+#icon {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    margin:auto;
+    transition: 200ms all;
+}
+
+#icon:hover{
+    filter: saturate(200%);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#icon img {
+    height: 60%;
+    width: 60%;
+    margin: 20%;
+}
+
+.icon img:hover {
+    filter: saturate(200%);
+    transform: scale(1.3);
+    filter: drop-shadow(0 0 10px white);
+    cursor: pointer;
+}
+
+.bug {
+    background: #92BC2C;
+    filter: drop-shadow(0 0 10px #92BC2C);
+}
+
+.dark {
+    background: #595761;
+    filter: drop-shadow(0 0 10px #595761);
+}
+
+.dragon {
+    background: #0C69C8;
+    filter: drop-shadow(0 0 10px #0C69C8);
+}
+
+.electric {
+    background: #F2D94E;
+    filter: drop-shadow(0 0 10px #F2D94E);
+}
+
+.fire {
+    background: #FBA54C;
+    filter: drop-shadow(0 0 10px #FBA54C);
+}
+
+.fairy {
+    background: #EE90E6;
+    filter: drop-shadow(0 0 10px #EE90E6);
+}
+
+.fighting {
+    background: #D3425F;
+    filter: drop-shadow(0 0 10px #D3425F);
+}
+
+.flying {
+    background: #A1BBEC;
+    filter: drop-shadow(0 0 10px #A1BBEC);
+}
+
+.ghost {
+    background: #5F6DBC;
+    filter: drop-shadow(0 0 10px #5F6DBC);
+}
+
+.grass {
+    background: #5FBD58;
+    filter: drop-shadow(0 0 10px #5FBD58);
+}
+
+.ground {
+    background: #DA7C4D;
+    filter: drop-shadow(0 0 10px #DA7C4D);
+}
+
+.ice {
+    background: #75D0C1;
+    filter: drop-shadow(0 0 10px #75D0C1);
+}
+
+.normal {
+    background: #A0A29F;
+    filter: drop-shadow(0 0 10px #A0A29F);
+}
+
+.poison {
+    background: #B763CF;
+    filter: drop-shadow(0 0 10px #B763CF);
+}
+
+.psychic {
+    background: #FA8581;
+    filter: drop-shadow(0 0 10px #FA8581);
+}
+
+.rock {
+    filter: drop-shadow(0 0 10px #C9BB8A);
+    background: #C9BB8A;
+}
+
+.steel {
+    background: #5695A3;
+    filter: drop-shadow(0 0 10px #5695A3);
+}
+
+.water {
+    filter: drop-shadow(0 0 10px #539DDF);
+    background: #539DDF;
+}
+
+@media (max-width: 600px) {
+    .card-cont {
+        width: 100%;
+        height: 100%;
+    }
+}
